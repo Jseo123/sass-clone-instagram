@@ -1,1 +1,9 @@
-@use "_main.scss";
+@use 'dashboard' as dashboard;
+@import 'login';
+@import 'variables';
+
+
+
+main {
+@include flexProperties;
+}
