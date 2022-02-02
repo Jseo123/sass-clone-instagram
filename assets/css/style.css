@@ -70,8 +70,13 @@ main {
   justify-content: center;
 }
 .mainSec img {
+  position: relative;
+  text-align: center;
   border-radius: 50%;
-  border: 3px solid pink;
+  padding: 3px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background: linear-gradient(to top right, #ffa600, #ff0055);
 }
 .mainSec img:hover {
   cursor: pointer;
@@ -130,6 +135,7 @@ article {
   margin-right: auto;
   margin-left: auto;
   min-width: max-content;
+  border: 1px solid #dedede;
 }
 
 .submit {

@@ -20,6 +20,7 @@ article{
 .logInput {
 @include variables.logInput;
 min-width: max-content;
+border: 1px solid #dedede;
 }
 
 .submit {
