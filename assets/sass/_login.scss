@@ -24,12 +24,37 @@ article{
 @include variables.buttonFont;
 }
 
- %formCon{
+.topBorder {
+color: #ffffff;
+border-top: 1px solid #989898;
+}
 
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
-    border-radius: 1px;
-    margin: 0 0 10px;
-    padding: 10px 0;
+.holder{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    @include variables.flex;
+    flex-direction: column;
+    max-height: 50%;
+}
+
+.middleFlex {
+    margin-top: 10%;
+justify-content: center;
+}
+
+.or {
+    color: #989898;
+    font-family: variables.$family;
+    font-size: small;
+}
+
+.facebook{
+    justify-content: center
+}
+
+.facebook div {
+color: #385185;
+font-family: variables.$family;
+font-weight: bold;
 }

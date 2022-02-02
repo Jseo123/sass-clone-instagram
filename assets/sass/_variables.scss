@@ -1,4 +1,6 @@
 
+$family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
 @mixin flexProperties {
     display: flex;
     justify-content: center;
@@ -49,7 +51,7 @@ width: auto;
 }
 
 @mixin buttonFont {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-family: $family;
 font-size: 14px;
 line-height: 18px;
 background: #0095f6;
@@ -62,10 +64,16 @@ margin-top: 10%;
 .formCon {
   background: #ffffff;
   align-items: center;
-  background-color: #fff;
   border: 1px solid #dbdbdb;
   border-radius: 1px;
   margin: 0 0 10px;
   padding: 10px 0;
 }
 
+@mixin flex {
+    display: flex;
+}
+
+.flex {
+    @include flex;
+}
