@@ -98,6 +98,10 @@ article {
   border-top: 1px solid #989898;
 }
 
+.topBorder:hover {
+  cursor: default;
+}
+
 .holder {
   margin-top: 6%;
   margin-left: 5%;
@@ -136,7 +140,7 @@ article {
   cursor: pointer;
 }
 
-form {
+.logForm {
   display: flex;
   flex-direction: column;
 }
