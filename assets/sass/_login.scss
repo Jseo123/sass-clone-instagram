@@ -7,6 +7,7 @@
     @include variables.flexProperties;
     flex-direction: column;
     min-width: 35%;
+    align-items: center;
 }
 
 article{
@@ -98,6 +99,7 @@ form {
     border: 1px solid #dbdbdb;
     justify-content: center;
     min-height: 9%;
+    min-width: 99%;
 }
 
 .lowerSec div {
@@ -114,5 +116,24 @@ form {
 }
 
 .sign:hover {
+    cursor: pointer;
+}
+
+.get {
+    font-family: variables.$family;
+    margin-top: 2%;
+}
+
+.apps {
+    margin-top:4%;
+    justify-content: center;
+}
+
+.apps img {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.apps img:hover {
     cursor: pointer;
 }
