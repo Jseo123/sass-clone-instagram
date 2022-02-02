@@ -6,7 +6,7 @@
 .right{
     @include variables.flexProperties;
     flex-direction: column;
-    min-width: 35%;
+    min-width: 20%;
     align-items: center;
 }
 
