@@ -17,6 +17,7 @@ article{
 
 .logInput {
 @include variables.logInput;
+min-width: max-content;
 }
 
 .submit {
@@ -50,11 +51,27 @@ justify-content: center;
 }
 
 .facebook{
-    justify-content: center
+    justify-content: center;
 }
 
 .facebook div {
 color: #385185;
 font-family: variables.$family;
-font-weight: bold;
+font-weight: bold; 
+
+
+}
+
+.facebook img {
+    margin-right: 10%;
+}
+
+.facebook div:hover{
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
 }
