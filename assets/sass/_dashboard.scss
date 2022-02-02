@@ -31,9 +31,14 @@ font-size:large;
 
 .rightFlex {
     justify-content: space-around;
+    min-width: 30%;
 }
 
 .rightFlex img {
     max-height: 60%;
+}
 
+.profile {
+    border-radius: variables.$round;
+    max-height: 80% !important;
 }
