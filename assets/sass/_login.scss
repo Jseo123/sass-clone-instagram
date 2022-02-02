@@ -18,3 +18,18 @@ article{
 .logInput {
 @include variables.logInput;
 }
+
+.submit {
+@include variables.button;
+@include variables.buttonFont;
+}
+
+ %formCon{
+
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}

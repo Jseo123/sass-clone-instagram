@@ -15,11 +15,57 @@ overflow: hidden;
 color: rgba(var(--f52,142,142,142),1);
 text-overflow: ellipsis;
 background: rgba(var(--b3f,250,250,250),1);
-border: 1px;
+border-radius: 3px;
+box-sizing: border-box;
 flex: 1 0 auto;
 margin: 0;
 outline: 0;
 overflow: hidden;
 padding: 9px 0 7px 8px;
 text-overflow: ellipsis;
+margin-top: 10%;
 }
+
+@mixin button {
+    appearance: none;
+background: 0 0;
+  background-color: rgba(0, 0, 0, 0);
+border: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+cursor: pointer;
+display: block;
+font-size: 14px;
+font-weight: 600;
+padding: 5px 9px;
+text-align: center;
+text-overflow: ellipsis;
+text-transform: inherit;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+width: auto;
+}
+
+@mixin buttonFont {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 18px;
+background: #0095f6;
+color: white;
+width: 100%;
+border-radius: 4px;
+margin-top: 10%;
+}
+
+.formCon {
+  background: #ffffff;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+

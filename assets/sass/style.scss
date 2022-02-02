@@ -6,5 +6,8 @@
 
 main {
 @include variables.flexProperties;
-color:black;
+}
+
+body {
+   background: #fafafa;
 }
