@@ -1,8 +1,20 @@
 @use "_variables.scss";
+.left {
+    @include variables.flexProperties;
+}
 
-@mixin flexProperties {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
+.right{
+    @include variables.flexProperties;
+}
+
+article{
+    @include variables.flexProperties;
+    margin: 32px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.logInput {
+@include variables.logInput;
 }

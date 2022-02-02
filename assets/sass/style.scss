@@ -1,9 +1,10 @@
 @use 'dashboard' as dashboard;
-@import 'login';
-@import 'variables';
+@use 'login';
+@use 'variables';
 
 
 
 main {
-@include flexProperties;
+@include variables.flexProperties;
+color:black;
 }
