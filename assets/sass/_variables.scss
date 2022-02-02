@@ -2,7 +2,7 @@
 $family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 $backText:#989898;
 $inputBackground:#efefef;
-$round:100px;
+$round:50%;
 
 @mixin flexProperties {
     display: flex;

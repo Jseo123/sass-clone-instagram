@@ -32,13 +32,49 @@ font-size:large;
 .rightFlex {
     justify-content: space-around;
     min-width: 30%;
+
+ img {
+    max-height: 60%;
+    }
 }
 
-.rightFlex img {
-    max-height: 60%;
-}
 
 .profile {
     border-radius: variables.$round;
     max-height: 80% !important;
 }
+
+main {
+    margin-top: 5%;
+}
+
+.mainSec {
+    min-width: 40%;
+flex-direction: column;
+margin-right: 10%;
+background: #ffffff;
+border: 1px solid #dfdfdf;
+min-height: 80px;
+justify-content: center;
+img {
+    border-radius: variables.$round;
+    border: 3px solid pink;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+.stories {
+    justify-content: space-between;
+    min-width: 100%;
+    height: 50%;
+    overflow: hidden;
+
+}
+
