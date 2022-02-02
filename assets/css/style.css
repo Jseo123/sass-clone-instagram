@@ -15,6 +15,42 @@
   display: flex;
 }
 
+nav {
+  justify-content: space-around;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+nav img:hover {
+  cursor: pointer;
+}
+
+.search {
+  color: #989898;
+  background: #efefef;
+  direction: rtl;
+  border: none;
+  border-radius: 10px;
+  min-height: 80%;
+  font-size: large;
+}
+
+.searchCon {
+  position: relative;
+}
+
+.searchCon img {
+  position: absolute;
+  top: 25%;
+}
+
+.rightFlex {
+  justify-content: space-around;
+}
+
+.rightFlex img {
+  max-height: 60%;
+}
+
 .left {
   display: flex;
   justify-content: center;
@@ -47,7 +83,7 @@ article {
   overflow: hidden;
   color: rgba(var(--f52, 142, 142, 142), 1);
   text-overflow: ellipsis;
-  background: rgba(var(--b3f, 250, 250, 250), 1);
+  background: #efefef;
   border-radius: 3px;
   box-sizing: border-box;
   flex: 1 0 auto;
@@ -123,7 +159,7 @@ article {
 }
 
 .facebook {
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .facebook div {

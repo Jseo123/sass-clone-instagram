@@ -1,1 +1,39 @@
 @use "_variables.scss";
+
+nav {
+    justify-content: space-around;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+nav img:hover {
+    cursor: pointer;
+}
+
+.search {
+color: variables.$backText;
+background: variables.$inputBackground;
+direction:rtl;
+border: none;
+border-radius: 10px;
+min-height: 80%;
+font-size:large;
+
+}
+
+.searchCon {
+    position: relative;
+}
+
+.searchCon img {
+    position: absolute;
+    top:25%;
+}
+
+.rightFlex {
+    justify-content: space-around;
+}
+
+.rightFlex img {
+    max-height: 60%;
+
+}

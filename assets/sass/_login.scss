@@ -29,7 +29,7 @@ min-width: max-content;
 
 .topBorder {
 color: #ffffff;
-border-top: 1px solid #989898;
+border-top: 1px solid variables.$backText;
 }
 
 .topBorder:hover{
@@ -57,15 +57,13 @@ justify-content: center;
 }
 
 .facebook{
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .facebook div {
 color: #385185;
 font-family: variables.$family;
 font-weight: bold; 
-
-
 }
 
 .facebook img {
