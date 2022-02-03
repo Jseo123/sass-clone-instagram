@@ -89,7 +89,7 @@ nav img:hover {
   height: 45px;
   margin-left: 2%;
   margin-right: 2%;
-  background: linear-gradient(to top right, #ffa600, #ff0055);
+  background: linear-gradient(to top right, #ffa600, #eb0beb);
 }
 .stories img:hover {
   cursor: pointer;
