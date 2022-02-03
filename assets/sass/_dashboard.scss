@@ -91,7 +91,6 @@ justify-content: center;
     background: #ffffff;
 border: 1px solid #dfdfdf;
     margin-top: 10%;
-    //min-height: 20%;
 }
 
 .top {
@@ -196,6 +195,7 @@ p:hover {
 .description {
     justify-content: flex-start;
     align-items: center;
+    margin-top: -5%;
     a {
         font-family: variables.$family;
         font-weight: bold;
@@ -218,6 +218,7 @@ p:hover {
 }
 
 .comments {
+    margin-top: -5%;
     p {
         margin-left: 2%;
         color:variables.$backText;
@@ -231,6 +232,7 @@ p:hover {
 }
 
 .hours {
+    margin-top: -2%;
     margin-left: 2%;
     color:grey;
     font-family: variables.$family;

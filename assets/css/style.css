@@ -199,6 +199,7 @@ nav img:hover {
 .description {
   justify-content: flex-start;
   align-items: center;
+  margin-top: -5%;
 }
 .description a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -218,6 +219,9 @@ nav img:hover {
   font-size: small;
 }
 
+.comments {
+  margin-top: -5%;
+}
 .comments p {
   margin-left: 2%;
   color: #989898;
@@ -229,6 +233,7 @@ nav img:hover {
 }
 
 .hours {
+  margin-top: -2%;
   margin-left: 2%;
   color: grey;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
