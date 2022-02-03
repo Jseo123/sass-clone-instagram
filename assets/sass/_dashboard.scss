@@ -91,7 +91,7 @@ justify-content: center;
     background: #ffffff;
 border: 1px solid #dfdfdf;
     margin-top: 10%;
-    min-height: 20%;
+    //min-height: 20%;
 }
 
 .top {
@@ -125,6 +125,10 @@ border: 1px solid #dfdfdf;
     }
     img:hover {
         cursor: pointer;
+    }
+        
+    p:hover {
+        cursor:default;
     }
 }
 
@@ -204,8 +208,31 @@ p:hover {
         cursor: pointer;
     }
 
+    p:hover {
+        cursor:default;
+    }
     p {
         font-family: variables.$family;
         font-size: small;
     }
+}
+
+.comments {
+    p {
+        margin-left: 2%;
+        color:variables.$backText;
+        font-family: variables.$family;
+       font-size:medium;
+    }
+
+    p:hover {
+        cursor: pointer;
+    }
+}
+
+.hours {
+    margin-left: 2%;
+    color:grey;
+    font-family: variables.$family;
+   font-size:small;
 }
