@@ -56,19 +56,23 @@ nav img:hover {
   max-height: 80% !important;
 }
 
-main {
+.mainDash {
   margin-top: 5%;
+  min-height: 100%;
 }
 
 .mainSec {
   flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-height: 100%;
 }
 .mainSec img {
   position: relative;
   text-align: center;
   border-radius: 50%;
   padding: 3px;
-  height: 50%;
+  height: 60%;
   margin-left: 2%;
   margin-right: 2%;
   background: linear-gradient(to top right, #ffa600, #ff0055);
@@ -79,8 +83,7 @@ main {
 
 .stories {
   align-items: center;
-  min-width: 40%;
-  margin-right: 10%;
+  width: 55%;
   background: #ffffff;
   border: 1px solid #dfdfdf;
   min-height: 80px;
@@ -88,6 +91,20 @@ main {
   justify-content: space-between;
   min-width: 100%;
   overflow: hidden;
+}
+
+.posts {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  margin-top: 10%;
+  min-height: 20%;
+}
+
+.top {
+  justify-content: space-between;
 }
 
 .left {
@@ -289,6 +306,11 @@ main {
 
 body {
   background: #fafafa;
+}
+
+html, body {
+  margin: 0;
+  height: 200%;
 }
 
 /*# sourceMappingURL=style.css.map */
