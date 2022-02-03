@@ -66,6 +66,7 @@ background: #ffffff;
 border: 1px solid #dfdfdf;
 min-height: 80px;
 justify-content: center;
+min-height: 3.5%;
     justify-content: space-between;
     min-width: 100%;
     overflow: hidden;
@@ -74,7 +75,7 @@ justify-content: center;
         text-align: center;
         border-radius: variables.$round;
         padding: 3px;
-        height: 45px;
+        height: 50px;
         margin-left: 2%;
         margin-right: 2%;
         background: linear-gradient(to top right, rgb(255, 166, 0), rgb(235, 11, 235))
@@ -246,7 +247,7 @@ p:hover {
     align-items: center;
     img {
         margin-left: 20%;
-        height: 40px;
+        height: 50px;
         border-radius: variables.$round;
     }
     img:hover {
@@ -258,6 +259,7 @@ p:hover {
     margin-left: 4%;
     flex-direction: column;
     justify-content: center;
+    row-gap: -2px;
     a {
        font-family: variables.$family; 
        font-weight: bold;
@@ -284,3 +286,31 @@ p:hover {
 .switch:hover {
     cursor: pointer;
 }
+
+.rightSec{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.suggestions {
+    width: 100%;
+    margin-left: 20%;
+justify-content: space-between;
+align-items: center;
+p {
+    font-family: variables.$family;
+    color: variables.$backText;
+    font-weight: bold;
+}
+a:hover {
+    cursor: pointer;
+}
+
+a{
+font-family: variables.$family;
+font-size:x-small;
+font-weight: bold;
+}
+}
+
