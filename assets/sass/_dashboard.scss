@@ -188,3 +188,24 @@ p:hover {
     justify-content: center;
     height: 20px;
 }
+
+.description {
+    justify-content: flex-start;
+    align-items: center;
+    a {
+        font-family: variables.$family;
+        font-weight: bold;
+        font-size: small;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    p {
+        font-family: variables.$family;
+        font-size: small;
+    }
+}
