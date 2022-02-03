@@ -173,6 +173,7 @@ p:hover {
 .interactions {
     margin-top: 3%;
     padding-right: 2%;
+    margin-left: 2%;
     justify-content: space-between;
     align-items: center;
     img:hover{
@@ -193,9 +194,9 @@ p:hover {
 }
 
 .description {
+    margin-top: -2%;
     justify-content: flex-start;
     align-items: center;
-    margin-top: -5%;
     a {
         font-family: variables.$family;
         font-weight: bold;
@@ -218,12 +219,12 @@ p:hover {
 }
 
 .comments {
-    margin-top: -5%;
+    margin-top: -3%;
     p {
         margin-left: 2%;
         color:variables.$backText;
         font-family: variables.$family;
-       font-size:medium;
+       font-size:small;
     }
 
     p:hover {
@@ -232,9 +233,54 @@ p:hover {
 }
 
 .hours {
-    margin-top: -2%;
     margin-left: 2%;
     color:grey;
     font-family: variables.$family;
    font-size:small;
+}
+
+// rigth side of dashboard
+
+.mainRight {
+    margin-left: 3%;
+    align-items: center;
+    img {
+        margin-left: 20%;
+        height: 40px;
+        border-radius: variables.$round;
+    }
+    img:hover {
+        cursor: pointer;
+    }
+}
+
+.name {
+    margin-left: 4%;
+    flex-direction: column;
+    justify-content: center;
+    a {
+       font-family: variables.$family; 
+       font-weight: bold;
+    }
+
+    a:hover{
+        cursor: pointer;
+    }
+
+    p {
+        font-family: variables.$family; 
+        font-size: small;
+    }
+}
+
+.switch{
+    margin-left: 20%;
+    font-family: variables.$family; 
+    font-weight: bold;
+    color: #139cf6;
+    font-size: small;
+}
+
+.switch:hover {
+    cursor: pointer;
 }
