@@ -99,6 +99,35 @@ border: 1px solid #dfdfdf;
     border-bottom: 1px solid variables.$borderBottom;
 }
 
+.likes {
+    justify-content: flex-start;
+    align-items: center;
+    p {
+        font-family: variables.$family;
+      margin-left: 2%;
+      margin-right: 2%;
+      font-size: small;
+    }
+
+    a {
+        font-family: variables.$family;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    img {
+        border-radius: variables.$round;
+        height: 20px;
+    }
+    img:hover {
+        cursor: pointer;
+    }
+}
+
 .topLeft {
     flex-direction: row;
     justify-content: space-evenly;

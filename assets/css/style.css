@@ -110,6 +110,32 @@ nav img:hover {
   border-bottom: 1px solid #dfdfdf;
 }
 
+.likes {
+  justify-content: flex-start;
+  align-items: center;
+}
+.likes p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: small;
+}
+.likes a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: small;
+}
+.likes a:hover {
+  cursor: pointer;
+}
+.likes img {
+  border-radius: 50%;
+  height: 20px;
+}
+.likes img:hover {
+  cursor: pointer;
+}
+
 .topLeft {
   flex-direction: row;
   justify-content: space-evenly;
