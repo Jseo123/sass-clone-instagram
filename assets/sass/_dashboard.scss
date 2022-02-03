@@ -137,3 +137,24 @@ p:hover {
     cursor: pointer;
 }
 }
+
+.interactions {
+    justify-content: space-between;
+    align-items: center;
+    img:hover{
+        cursor: pointer;
+    }
+}
+
+.leftInt {
+    padding-left: 4%;
+    margin-top: 3%;
+    min-width: 20%;
+    justify-content: space-between;
+}
+
+.rightInt{
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
