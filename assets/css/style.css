@@ -147,6 +147,8 @@ nav img:hover {
 }
 
 .interactions {
+  margin-top: 3%;
+  padding-right: 2%;
   justify-content: space-between;
   align-items: center;
 }
@@ -156,7 +158,6 @@ nav img:hover {
 
 .leftInt {
   padding-left: 4%;
-  margin-top: 3%;
   min-width: 20%;
   justify-content: space-between;
 }
