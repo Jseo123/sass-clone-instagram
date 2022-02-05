@@ -310,6 +310,56 @@ nav img:hover {
   font-weight: bold;
 }
 
+.suggList {
+  margin-left: 20%;
+  min-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+}
+.suggList img {
+  border-radius: 50%;
+  height: 20px;
+}
+
+.middle {
+  justify-content: flex-start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.middle div {
+  min-width: 120%;
+  flex-direction: column;
+}
+.middle div a {
+  padding: 0;
+  margin: 0 !important;
+  gap: 0;
+  font-size: small;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.middle div p {
+  padding: 0;
+  margin: 0 !important;
+  gap: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: x-small;
+  color: #989898;
+}
+
+.end {
+  color: #139cf6;
+  align-items: center;
+  padding: 0;
+  font-size: small;
+  margin: 0;
+}
+
+.end:hover {
+  cursor: pointer;
+}
+
 .left {
   display: flex;
   justify-content: center;
